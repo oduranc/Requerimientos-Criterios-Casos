@@ -4,15 +4,15 @@
 
 ### Process Requirements
 
-* **Proc-Req-1:** The software shall be developed using C# .NET Core.
+* **Proc-Req-1:** The software shall be developed using Python 3.10.4.
 
-* **Proc-Req-2:** The software shall be tested using MSTest.
+* **Proc-Req-2:** The software shall be tested using unittest module.
 
 ### Functional Requirements
 
 * **Func-Req-1:** The software must convert arabic numbers to roman numerals.
 
-* **Func-Req-2:** The software must ask to the user for a number.
+* **Func-Req-2:** The software must ask to the user for a number after giving a welcome message.
 
 * **Func-Req-3:** If the input is not an arabic number, the software must tell the user the problem and to ask them to try again.
 
@@ -42,3 +42,28 @@ The software must comply with the roman numerals rules, which are:
 
 ## Test Cases
 
+### End-To-End Testing
+
+* **ETE-TC-1:** 
+
+  1. Execute the software.
+  2. Write *5*.
+  3. Press *Enter*.
+  4. When it tells you 5 = V and it asks you if you want to exit the application, the test has passed.
+
+### Unit Testing
+
+* **UT-TC-1:**
+
+  1. 333 = CCCXXXIII
+  2. 444 = CDXLIV
+
+* **UT-TC-2:**
+
+  1. 2.5 = Not an arabic number. Try again.
+  2. *Text* = Not an arabic number. Try again.
+
+* **UT-TC-3:**
+
+  1. 45000 = XLV-
+  2. 50000 = L-
