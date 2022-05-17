@@ -17,6 +17,6 @@
 
 5. After clonning, ``` cd Requerimientos-Criterios-Casos ```.
 
-6. Then, all you have to do to init the software is to ``` python main.py ```, ``` python3 main.py ``` or ``` pip3 main.py ```. If you followed item 3 then ``` python3 main.py ``` should work for you.
+6. Then, all you have to do to init the software is to ``` python principal.py ```, ``` python3 principal.py ``` or ``` pip3 principal.py ```. If you followed item 3 then ``` python3 principal.py ``` should work for you.
 
-7. In case you want to execute the unit tests files just ``` python3 test_main.py ```.
+7. In case you want to execute the unit tests files just ``` python3 test_principal.py ```.
