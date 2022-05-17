@@ -1,5 +1,7 @@
 # Requerimientos, Criterios, Casos
 
+# Cuestionario
+
 ## Responder:
 
 ### 1. ¿Qué es Coding Dojo? Referencia.[^1]
